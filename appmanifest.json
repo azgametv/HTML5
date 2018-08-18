@@ -1,9 +1,9 @@
 ﻿{
-	"name": "CandyLineBoom",
-	"short_name": "CandyLineBoom",
+	"name": "Princess Beach Trip",
+	"short_name": "Princess Beach Trip",
 	"start_url": "index.html",
 	"display": "fullscreen",
-	"orientation": "landscape",
+	"orientation": "any",
 	"icons": [{
 		"src": "icon-16.png",
 		"sizes": "16x16",
