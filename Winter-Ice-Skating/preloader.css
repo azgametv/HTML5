@@ -1,0 +1,52 @@
+#animation_container, #_preload_div_ {
+	position: absolute;
+}
+#animation_container {
+	margin: auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+}
+#_preload_div_ {
+	transform-origin: left top;
+	overflow: hidden;
+}
+body > img:last-of-type {
+	display: none;
+}
+#preload_play {
+	background: url("btnPlay.png") no-repeat;
+	content:"";
+	width: 137px;
+	height: 137px;
+	vertical-align: bottom;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#blockcheck_blocked {
+	background: url("block.jpg") no-repeat center center;
+	width: 800px;
+	height: 600px;
+	left: 0px;
+	top:0px;
+	position: absolute;
+	transform-origin: left top;
+}
+
+#progress_text {
+	position: absolute;
+	z-index: 100;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 0px;
+	padding-top: 12px;
+}
+
+#rurl {display:none; position:absolute;	background:#000000; z-index:-1;}
