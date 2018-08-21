@@ -6682,7 +6682,7 @@ p.frameBounds = [rect];
 		this.poza1link = function () {
 			exportRoot.stopSnd();
 			var gamename = 'princesses-closet';
-			var mainwebsite = 'https://www.azgametv.com/game/3805/Elsa_And_Rapunzel_Selfie_Time.html';
+			var mainwebsite = 'https://www.azgametv.com/';
 			var stringHost = detect_parent();
 		
 			if (stringHost == "rosy") {
@@ -6694,7 +6694,7 @@ p.frameBounds = [rect];
 		this.poza2link = function () {
 			exportRoot.stopSnd();
 			var gamename = 'princesses-closet';
-			var mainwebsite = 'https://www.azgametv.com/game/4212/BFF_Selfie_Time.html';
+			var mainwebsite = 'https://www.azgametv.com/';
 			var stringHost = detect_parent();
 		
 			if (stringHost == "rosy") {
@@ -6712,7 +6712,7 @@ p.frameBounds = [rect];
 		
 		
 		this.addthegame = function () {
-			window.open("http://www.playrosy.com/ourgames.html?thegame=rapunzel-and-flynn-happy-family", "_blank");
+			window.open("https://www.azgametv.com/", "_blank");
 		}
 		
 		function detect_parent() {
